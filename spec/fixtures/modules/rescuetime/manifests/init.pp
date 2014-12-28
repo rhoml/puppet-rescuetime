@@ -1,11 +1,11 @@
-# Public: Install Timerescue.app into /Applications.
+# Public: Install Rescuetime.app into /Applications.
 #
 # Examples
 #
-#   include timerecue
-class timerescue {
+#   include rescuetime
+class rescuetime {
   package {
-    'Timerescue':
+    'Rescuetime':
       source   => 'https://www.rescuetime.com/installers/RescueTimeInstaller.dmg',
       provider => 'appdmg'
   }

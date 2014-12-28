@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe 'timerescue' do
+describe 'rescuetime' do
   it do
-    should contain_package('timerescue').with({
+    should contain_package('rescuetime').with({
       :source   => 'https://www.rescuetime.com/installers/RescueTimeInstaller.dmg',
       :provider => 'appdmg'
     })

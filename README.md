@@ -1,11 +1,11 @@
-# Timerescue Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-timerescue.png?branch=master)](https://travis-ci.org/boxen/puppet-timerescue)
+# Rescue Time Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-rescuetime.png?branch=master)](https://travis-ci.org/boxen/puppet-rescuetime)
 
-Install [Time Rescue for Mac OSX](http://timerescue.com/)
+Install [Rescue time for Mac OSX](http://rescuetime.com/)
 
 ## Usage
 
 ```puppet
-include timerescue
+include rescuetime
 ```
 
 ## Required Puppet Modules
